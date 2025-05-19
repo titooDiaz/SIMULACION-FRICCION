@@ -2,13 +2,11 @@
   <img width="150px" src="https://i.ibb.co/bXvzjXm/LOGO-h1.png" alt="Logo de h1">
 </p>
 
-# Simulacion de friccion
+# Simulacion de friccion 🧯
 
 Este experimento tuvo como objetivo explorar los factores que afectan el movimiento de un objeto sobre un plano inclinado. A partir de conceptos básicos de dinámica, se analizaron creencias comunes —como la influencia del área de contacto— frente a lo que predice el modelo físico: que la fricción depende de la fuerza normal y del coeficiente de fricción, pero no del área superficial.
 
-Se utilizaron figuras con diferentes formas y superficies, y se variaron condiciones como el ángulo de inclinación y el tipo de material. Los resultados se analizaron tanto de forma experimental como con un modelo teórico para comparar comportamientos.
-
-## Simulación
+## Simulación 🔫
 Se desarrollaron 4 simulaciones que replican distintas condiciones del experimento descritas en el informe técnico (ver archivo PROYECTO.pdf). Cada una permite visualizar cómo distintos factores afectan la velocidad final del objeto en la rampa.
 
 ### Fase 1 – Diferentes masas
@@ -43,4 +41,25 @@ En esta simulación se observa cómo el ángulo afecta significativamente la vel
 
 Se utilizaron rampas con superficies de madera lisa, plástico y lija. Como era de esperarse, las superficies con mayor fricción reducen considerablemente la velocidad final del objeto.
 
-| Estas simulaciones permiten visualizar de manera intuitiva lo que predicen los modelos físicos, facilitando así el entendimiento de conceptos clave como fricción, aceleración y dinámica en planos inclinados.
+## Ejecucion 🚀
+
+Para clonar el repositorio utilice el siguiente comando en su terminal ( Asegurese de tener instalado git en su sistema ):
+
+```bash
+git clone https://github.com/titooDiaz/SIMULACION-FRICCION
+```
+
+Para ejecutar la simulación, es necesario tener instalado Python y las bibliotecas necesarias.
+
+```bash
+pip install numpy pillow
+```
+
+Se debe ejecutar el archivo `main.py`.
+
+Los archivos generados se guardaran en:
+
+```
+SIMULACION-FRICCION/
+├── gifs/
+```
